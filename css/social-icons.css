@@ -1,0 +1,91 @@
+/* 
+    Created on : May 26, 2017, 1:42:00 PM
+    Author     : UX_Mokarram
+*/
+
+@font-face {
+  font-family: 'Social Icons';
+  src: url('../fonts/pixelunionsocialicons-regular.eot');
+  src: url('../fonts/pixelunionsocialicons-regular.eot#iefix') format('embedded-opentype'),
+       url('../fonts/pixelunionsocialicons-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+   font-family: 'Bootstrap Icons';
+   src: url('../fonts/bootstrap-icons.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.social-link {
+  display: inline-block;
+  line-height: 1;
+}
+.social-link a {
+    padding-right: 15px;
+}
+a:before {
+    font-size: 22px;
+    font-family: 'Social Icons';
+    -webkit-font-smoothing: antialiased;
+  }
+.social-link.bootstrap a::before {
+  font-size: 19px;
+  font-family: 'Bootstrap Icons';
+  -webkit-font-smoothing: antialiased;
+}
+
+  .social-link.facebook a:before {
+    content: '\E003';
+  }
+
+  .social-link.twitter a:before {
+    content: '\E036';
+  }
+
+  .social-link.google-plus a:before {
+    content: '\E03F';
+  }
+
+  .social-link.pinterest a:before {
+    content: '\E296';
+  }
+
+  .social-link.rss a:before {
+    content: '\E046';
+  }
+
+  .social-link.email a:before {
+    content: '\E050';
+  }
+
+  .social-link.instagram a:before {
+    content: '\E226';
+  }
+
+  .social-link.kickstarter a:before {
+    content: '\E24F';
+  }
+
+  .social-link.vimeo a:before {
+    content: '\E366';
+  }
+
+  .social-link.youtube-logo a:before {
+    content: '\E426';
+  }
+
+  .social-link.tumblr a:before {
+    content: '\E35F';
+  }
+
+
+.social-link.bootstrap.tiktok a::before {
+  content: "\f6cc";
+}
+
+.social-link.bootstrap.linkedin a::before {
+  content: "\f472";
+}
